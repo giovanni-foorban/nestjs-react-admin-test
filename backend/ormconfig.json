@@ -1,0 +1,10 @@
+{
+    "type": "mysql",
+    "host": "food-db",
+    "port": 3306,
+    "username": "root",
+    "password": "password",
+    "database": "food-db",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
